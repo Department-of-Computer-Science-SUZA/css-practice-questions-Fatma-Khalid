@@ -1,0 +1,207 @@
+.top{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 45vh;
+   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./S-bacg.jpg);
+}
+
+
+
+.links li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+}
+.links li{
+    float: left;
+
+}
+.links li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.links li a:hover{
+    background-color: transparent;
+    color: rgb(117, 20, 20);
+}
+.top h1{
+color:white;
+font-size: 40px;
+text-align: center;
+font-weight: 600;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-top: 100px;
+}
+.mainn h1{
+  color: rgb(147, 22, 22);
+  text-align: center;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 50px;
+
+
+}  
+.mainn p{
+    color: rgb(147, 22, 22);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+  
+}
+.activities{
+    margin-top: 40px;
+    height: 70vh;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 40px;
+   display: flex;
+    margin-bottom: 60px;
+    padding: 14px 16px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.act{
+    background-color: rgb(246, 237, 230);
+    width: 350px;
+    height: 450px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.act img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+    margin-left: 40px;
+
+}
+.word p{
+    font-size: 20px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(148, 31, 31);
+  text-align: center;
+}
+span{
+     color: rgb(148, 31, 31);
+     text-align: center;
+     font-size: 16px;
+}
+.contain{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 9px;
+    margin-top: 100px;
+
+}
+.pich img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+    margin-left: 40px;
+}
+.pich{
+    background-color: rgb(246, 237, 230);
+    width: 350px;
+    height: 450px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-top: 10px; 
+}
+.poems{
+    background-color: rgb(246, 237, 230);
+    width: 820px;
+    height: 450px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.poemlist{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.poems h3{
+  
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(148, 31, 31);
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.poemlist ul li{
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(148, 31, 31);
+  margin-left: 300px;
+  font-size: 16px;
+  margin-top: 0;
+  margin-left: 10px;
+
+}
+.poemlist p{
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(148, 31, 31);
+  margin-left: 300px;
+  font-size: 16px;
+  margin-top: 0;
+  text-align: justify;
+  margin-left: 200px;
+
+}
+.actis{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    background-color: rgb(246, 237, 230);
+    width: 100%;
+    height: 330px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.acti img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100px;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+.bottom{
+    margin-top: 15vh;
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./S-bacg.jpg);
+
+
+}
+.button a{
+    margin-left: 500px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid  rgb(93, 11, 11);
+    padding: 12px 70px;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(to right, rgb(143, 25, 25),  rgb(93, 11, 11));
+    position: relative;
+    cursor: pointer;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
+   
+}
